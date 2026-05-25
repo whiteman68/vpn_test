@@ -7,5 +7,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Start SSH via tmate
-        uses: mxschmitt/action-tmate@v3
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
